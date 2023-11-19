@@ -1,7 +1,7 @@
 import { combineReducers } from 'redux';
 
-import * as E from './exStore/reducers';
+import * as P from './pageCount/reducers';
 
 export const rootReducer = combineReducers({
-	listEntities: E.reducer,
+	pageCounter: P.reducer,
 });
